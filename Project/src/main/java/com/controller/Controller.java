@@ -50,6 +50,7 @@ public class Controller extends HttpServlet {
 				userSession.setAttribute("userName", userInfo[2]);
 				userSession.setAttribute("userEmail", userInfo[3]);
 				System.out.println(request.getAttribute("userName"));
+				System.out.println(userInfo[2]);
 				request.getRequestDispatcher("/Home.jsp").forward(request, response);
 			}
 		}
