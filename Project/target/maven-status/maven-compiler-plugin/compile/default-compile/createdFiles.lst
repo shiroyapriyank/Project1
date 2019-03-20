@@ -1,0 +1,5 @@
+com\model\ProductDetails.class
+com\model\UserDetails.class
+com\controller\Controller.class
+com\dao\Dao.class
+com\util\Util.class

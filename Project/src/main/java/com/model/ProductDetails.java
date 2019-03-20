@@ -14,7 +14,7 @@ public class ProductDetails {
 	@Column(name="productDescription")
 	private String productDescription;
 	@Column(name="productPrice")
-	private String productPrice;
+	private Integer productPrice;
 	
 	
 	public int getProductId() {
@@ -35,10 +35,10 @@ public class ProductDetails {
 	public void setProductDescription(String productDescription) {
 		this.productDescription = productDescription;
 	}
-	public String getProductPrice() {
+	public Integer getProductPrice() {
 		return productPrice;
 	}
-	public void setProductPrice(String productPrice) {
+	public void setProductPrice(Integer productPrice) {
 		this.productPrice = productPrice;
 	}
 	

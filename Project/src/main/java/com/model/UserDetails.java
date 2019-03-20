@@ -18,6 +18,7 @@ public class UserDetails {
 	private String userPassword;
 	
 	
+	
 	public int getUserId() {
 		return userId;
 	}
